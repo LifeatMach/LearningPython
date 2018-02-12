@@ -1,6 +1,6 @@
 from operator import index
 #This is my first python script. It will be a living script for a while, meaning I will add to it as I learn more and more things.
-#John Adcock - Started on 1/30/2018 - age 26
+#John - Started on 1/30/2018 - age 26
 
 print("---------------------------------------------------------------------------")
 print("..................Start.................")
@@ -8,7 +8,7 @@ print("-------------------------------------------------------------------------
 
 fn = input("Enter your first name: ")
 ln = input("Enter your last name: ")
-num1 = int(input("Enter your favroite number: "))
+num1 = int(input("Enter your favorite number: "))
 num2 = int(input("Enter a random number: "))
 
 print("---------------------------------------------------------------------------")
@@ -85,7 +85,7 @@ else:
                 print("Your names match!")
 
 print("---------------------------------------------------------------------------")
-#Learning if statments and while loops and boolean logic
+#Learning if statements and while loops and boolean logic
 if num1 != num2 and num1 > num2:
         print(str(num1)+" and "+str(num2)+" are not equal and "+str(num1)+" is larger than "+str(num2)+"!")
         num3=num1
